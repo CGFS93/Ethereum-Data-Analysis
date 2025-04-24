@@ -45,11 +45,11 @@ Since our data spans from November 9, 2017 inflation is given consideration. Inf
 1. **Adjust ETH Return for USD Inflation:**
     - Adjust the historical ETH-USD return by the U.S. CPI to see the real (inflation-adjusted) return of ETH:
     
-    $$
-    R^r_t = \frac{1+R_t}{1+\pi_t}-1
-    $$
+$$
+R^r_t = \frac{1+R_t}{1+\pi_t}-1
+$$
 
-    **Where $R^r_t$ is the real return, $R_t$ is the time $t$ simple return, $\pi_t$ stands for the inflation rate.**
+**Where $R^r_t$ is the real return, $R_t$ is the time $t$ simple return, $\pi_t$ stands for the inflation rate.**
 
 
 2. **On-Chain ETH Consumer Price Index (Synthetic Index):**
