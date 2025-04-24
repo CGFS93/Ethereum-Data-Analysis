@@ -6,7 +6,7 @@ This repository contains tools, scripts, and notebooks for analyzing Ethereum re
 
 - **Visualization:** Plotly, Matplotlib, Seaborn
 
-- **Data Sources:** yfinance,
+- **Data Sources:** yfinance, fredapi,
 
 - **Tools:** Jupyter Notebooks,
 
