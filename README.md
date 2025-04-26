@@ -49,7 +49,7 @@ $$
 R^r_t = \frac{1+R_t}{1+\pi_t}-1
 $$
 
-**Where $R^r_t$ is the real return, $R_t$ is the time $t$ simple return, $\pi_t$ stands for the inflation rate.**
+> **Where $R^r_t$ is the real return, $R_t$ is the time $t$ simple return, $\pi_t$ stands for the inflation rate.**
 
 
 2. **On-Chain ETH Consumer Price Index (Synthetic Index):**
@@ -64,3 +64,38 @@ $$
         - Average tx costs in ETH
 
 **For the purpose of the analysis, I'll adjust ETH's return for USD inflation.**
+
+### Calculating Realized Volatility
+Realized volatility is a statistical measure of how much an asset’s price actually fluctuated over a given period.
+
+$$
+RV = \sqrt{\sum_{i=1}^{T} r^2_t}
+$$
+
+<br>
+
+> ---
+>#### Why Do We Calculate It?
+>1. Measure of Risk
+>Higher volatility = more uncertainty in price
+>
+>       **Investors and analysts use it to evaluate the riskiness of holding the asset**
+>
+>2. Compare Across Assets
+>You can compare ETH’s realized volatility to BTC, gold, or stocks
+>
+>       **Helps decide where to allocate capital depending on risk appetite**
+>
+>3. Strategy Design
+>Quant strategies, option pricing models (like Black-Scholes), and portfolio managers all need volatility estimates
+>
+>       **It’s critical in value-at-risk (VaR), Sharpe ratio, and stop-loss modeling**
+>
+>4. Market Behavior Insight
+>Volatility clusters (periods of high volatility grouped together) can signal structural changes, market fear, or major catalysts
+>
+>       **For example: realized vol spikes after major crashes or macroeconomic announcements**
+>
+>5. Validate or Refute "Crypto = Risky" Narratives
+>You can show, with data, how ETH volatility evolves — does it stabilize over time? Or still behave like a high-beta asset?
+> ---
