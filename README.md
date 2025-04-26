@@ -74,7 +74,7 @@ $$
 
 <br>
 
-> ---
+
 >#### Why Do We Calculate It?
 >1. Measure of Risk
 >Higher volatility = more uncertainty in price
@@ -98,4 +98,4 @@ $$
 >
 >5. Validate or Refute "Crypto = Risky" Narratives
 >You can show, with data, how ETH volatility evolves — does it stabilize over time? Or still behave like a high-beta asset?
-> ---
+
